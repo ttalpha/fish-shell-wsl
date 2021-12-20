@@ -56,5 +56,5 @@
 - Connect to the postgres service and open the psql shell: <br />
 `sudo -u postgres psql`
 
-- Change password in case of authentication failed:<br />
+- Change password in case authentication failed:<br />
 `ALTER USER postgres WITH PASSWORD 'password';`
