@@ -2,20 +2,25 @@
 - Install Ubuntu in Microsoft Store
 
 - Run Ubuntu and run the command to upgrade the repository:
+
 `sudo apt update`
 
 ### Fish Shell on WSL
 
 - Install Fish
+
 `sudo apt install fish`
 
 - Run Fish Shell
+
 `fish`
 
 - Install curl
+
 `sudo apt install curl`
 
 - Install git
+
 `sudo apt install git`
 
 - Install powerline fonts
