@@ -31,7 +31,7 @@
 ### NodeJS<br />
 
 - Install NVM to update NodeJS<br />
-`omf install https://github.com/fabioantunes/fish-nvm`
+`omf install https://github.com/fabioantunes/fish-nvm`<br />
 `omf install https://github.com/edc/bass`
 
 - Install latest NodeJS version<br />
