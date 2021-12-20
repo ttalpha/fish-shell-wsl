@@ -31,8 +31,8 @@
 ### NodeJS
 
 - Install NVM to update NodeJS
-`omf install https://github.com/fabioantunes/fish-nvm
-omf install https://github.com/edc/bass`
+`omf install https://github.com/fabioantunes/fish-nvm`
+`omf install https://github.com/edc/bass`
 
 - Install latest NodeJS version
 `nvm install 16.13.1`
