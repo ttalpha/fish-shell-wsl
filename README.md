@@ -15,9 +15,6 @@
 - Install curl<br />
 `sudo apt install curl`
 
-- Install git<br />
-`sudo apt install git`
-
 - Install powerline fonts<br />
 `sudo apt install fonts-powerline`
 
@@ -60,3 +57,14 @@
 
 - Change password in case authentication failed:<br />
 `ALTER USER postgres WITH PASSWORD 'password';`
+
+## Git
+
+- Install git<br />
+`sudo apt install git`
+
+- Add a PPA (Personal Package Archive), maintained by the Git team for Ubuntu users<br/>
+`sudo add-apt-repository ppa:git-core/ppa`
+
+- Update git<br/>
+`sudo apt install git`
