@@ -29,8 +29,10 @@
 
 
 ### NodeJS<br />
+- Install NVM</br>
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
-- Install NVM to update NodeJS<br />
+- Install NVM to update NodeJS for Oh My Fish<br />
 `omf install https://github.com/fabioantunes/fish-nvm`<br />
 `omf install https://github.com/edc/bass`
 
