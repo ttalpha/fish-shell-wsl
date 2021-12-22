@@ -60,9 +60,6 @@
 
 ## Git
 
-- Install git<br />
-`sudo apt install git`
-
 - Add a PPA (Personal Package Archive), maintained by the Git team for Ubuntu users<br/>
 `sudo add-apt-repository ppa:git-core/ppa`
 
