@@ -1,5 +1,8 @@
 ### WSL
-- Install Ubuntu in Microsoft Store
+- Enable WSL on Windows in the Command Line<br />
+`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+
+- Install Ubuntu in Microsoft Store [here](https://apps.microsoft.com/store/detail/ubuntu-1804-on-windows/9N9TNGVNDL3Q)
 
 - Run Ubuntu and run the command to upgrade the repository:<br />
 `sudo apt update`
@@ -65,3 +68,23 @@
 
 - Update git<br/>
 `sudo apt install git`
+
+- Change visudo editor from nano to vim: <br />
+`sudo update-alternatives --config editor`
+
+This will show a table like this: 
+
+```
+There are 4 choices for the alternative editor (providing /usr/bin/editor).
+
+  Selection    Path                Priority   Status
+------------------------------------------------------------
+* 0            /bin/nano            40        auto mode
+  1            /bin/ed             -100       manual mode
+  2            /bin/nano            40        manual mode
+  3            /usr/bin/vim.basic   30        manual mode
+  4            /usr/bin/vim.tiny    10        manual mode
+
+Press enter to keep the current choice[*], or type selection number: 3
+```
+Find `vim.basic` or `vim.tiny` and press the selection number and Enter.
