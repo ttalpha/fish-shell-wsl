@@ -69,7 +69,8 @@
 - Update git<br/>
 `sudo apt install git`
 
-- Change visudo editor from nano to vim: <br />
+## Vim
+
 `sudo update-alternatives --config editor`
 
 This will show a table like this: 
