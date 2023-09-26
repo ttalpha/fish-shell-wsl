@@ -28,7 +28,7 @@
 `chsh -s /usr/bin/fish`
 
 
-### NodeJS<br />
+### NodeJS
 - Install NVM</br>
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
@@ -42,7 +42,7 @@
 - Switch Node versions:<br />
 `nvm use 16.13.1`
 
-### PostgreSQL<br />
+### PostgreSQL
 - Install PostgreSQL on WSL:<br />
 `sudo apt install postgresql postgresql-contrib`
 
